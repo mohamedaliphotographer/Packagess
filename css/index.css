@@ -1,0 +1,107 @@
+.container {
+  margin: 0 auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../img/bgBookingNow.png) no-repeat center/cover;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+ 
+}
+
+.logo {
+  width: 300px;
+}
+
+@media (max-width: 664px) {
+  .logo {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+}
+
+h1 {
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-size: 4rem;
+  background: linear-gradient(145deg, rgb(198, 198, 198), rgb(183, 183, 183));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -60px;
+}
+
+@media (max-width: 664px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  direction: rtl;
+  justify-content: center;
+}
+
+.lang h2 {
+  font-size: 2rem;
+}
+
+select {
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
